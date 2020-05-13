@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header--title__h1{
+    color: var(--Very-Dark-Blue);
+    font-weight: 200;
+    line-height: 1;
+    font-size: 2em;
+}
+
+.header--title__p{
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 0;
+}
+
+.header--description{
+    text-align: center;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+    font-size: .9rem;
+    // font-size: 1.2rem;
+}

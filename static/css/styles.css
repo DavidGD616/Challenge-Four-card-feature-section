@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.header--title__h1 {
+  color: var(--Very-Dark-Blue);
+  font-weight: 200;
+  line-height: 1;
+  font-size: 2em;
+}
+
+.header--title__p {
+  color: var(--Very-Dark-Blue);
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 0;
+}
+
+.header--description {
+  text-align: center;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1224px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header--title__h1 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  .header--title__p {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  .card {
+    padding: 28px !important;
+  }
+
+  .card-description {
+    font-size: 0.8em !important;
+  }
+
+  .card-image {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .footer p {
+    font-size: 0.6em;
+  }
+}
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 15px;
+  background-color: var(--Very-Light-Gray);
+}
+
+.card {
+  max-width: 300px;
+  padding: 35px;
+  min-height: 185px;
+  height: 100%;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 12px 48px -20px var(--Grayish-Blue);
+  background-color: var(--Very-Light-Gray);
+}
+
+.supervisor {
+  border-top: solid 4px var(--cyan);
+}
+
+.team-builder {
+  border-top: solid 4px var(--red);
+}
+
+.karma {
+  border-top: solid 4px var(--orange);
+}
+
+.calculator {
+  border-top: solid 4px var(--blue);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--Very-Dark-Blue);
+}
+
+.card-description {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: var(--Grayish-Blue);
+}
+
+.card-image {
+  position: relative;
+  float: right;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#group-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

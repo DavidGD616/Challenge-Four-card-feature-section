@@ -1,0 +1,39 @@
+@media screen and (max-width: 1224px){
+    .cards{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header--title__h1{
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .header--title__p{
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .card{
+        padding: 28px !important;
+    }
+
+    .card-description{
+        font-size: .8em !important;
+    }
+
+    .card-image{
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .footer p{
+        font-size: .6em;
+    }
+}
+
+
